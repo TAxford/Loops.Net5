@@ -30,7 +30,7 @@ namespace Loops.Net5
             Console.WriteLine("Thanks, that was enough!" + wholeText);*/
 
             //While loop
-            int counter = 0;
+            /*int counter = 0;
             string enteredText = "";
             while(enteredText.Equals(""))
             {
@@ -39,11 +39,20 @@ namespace Loops.Net5
                 enteredText = Console.ReadLine();
                 counter++;
                 Console.WriteLine("Current people count is {0}", counter);
+            }*/
+
+
+            //break and continue
+            for(int counter = 0; counter < 10; counter++)
+            {
+                Console.WriteLine(counter);
+                if(counter == 3)
+                {
+                    Console.WriteLine("At 3 we stop!");
+                    break;
+                }
+                Console.Read();
             }
-
-
-
-            Console.Read();
 
         }
     }
