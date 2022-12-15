@@ -45,12 +45,14 @@ namespace Loops.Net5
             //break and continue
             for(int counter = 0; counter < 10; counter++)
             {
-                Console.WriteLine(counter);
+                
                 if(counter == 3)
                 {
-                    Console.WriteLine("At 3 we stop!");
-                    break;
+                    Console.WriteLine("We skip number 3!");
+                    continue;
                 }
+                Console.WriteLine(counter);
+
                 Console.Read();
             }
 
