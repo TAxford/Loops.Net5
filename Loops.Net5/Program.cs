@@ -17,7 +17,7 @@ namespace Loops.Net5
             Console.WriteLine("Forloop is done");*/
 
             //Do while loop
-            int lengthOfText =0;
+            /*int lengthOfText =0;
             string wholeText = "";
             do
             {
@@ -27,7 +27,15 @@ namespace Loops.Net5
                 lengthOfText += currentLength;
                 wholeText += nameOfAFriend;
             }while(lengthOfText < 20);
-            Console.WriteLine("Thanks, that was enough!" + wholeText);
+            Console.WriteLine("Thanks, that was enough!" + wholeText);*/
+
+            //While loop
+            int counter = 0;
+            while(counter < 10)
+            {
+                Console.WriteLine(counter);
+                counter++;
+            }
 
 
 
