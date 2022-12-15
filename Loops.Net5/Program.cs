@@ -17,13 +17,17 @@ namespace Loops.Net5
             Console.WriteLine("Forloop is done");*/
 
             //Do while loop
-            int counter = 0;
+            int lengthOfText =0;
+            string wholeText = "";
             do
             {
-                Console.WriteLine(counter);
-                counter++;
-            }while(counter < 5);
-
+                Console.WriteLine("Please enter the name of a friend");
+                string nameOfAFriend = Console.ReadLine();
+                int currentLength = nameOfAFriend.Length;
+                lengthOfText += currentLength;
+                wholeText += nameOfAFriend;
+            }while(lengthOfText < 20);
+            Console.WriteLine("Thanks, that was enough!" + wholeText);
 
 
 
